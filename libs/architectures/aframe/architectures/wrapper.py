@@ -3,11 +3,12 @@ from collections.abc import Callable
 
 import torch
 
-from aframe.architectures.resnet import BottleneckResNet, ResNet
+from aframe.architectures.resnet import BottleneckResNet, ResNet, Transformer
 
 architectures = {
     "resnet": ResNet,
     "bottleneck": BottleneckResNet,
+    "transformer": Transformer,
 }
 
 
